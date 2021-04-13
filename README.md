@@ -11,7 +11,7 @@
 
 ## 📎 Projet 17 - Création d'un mode Dark/Night en css
 
-![left 100%](mode_dark_light.jpg?raw=true)
+![left 100%](dark_light.jpg?raw=true)
 _`Début du projet le 20/04/2020`_
 
 Le projet 17 consiste à construire un bouton pour afficher le mode dark/night sur une page web.
