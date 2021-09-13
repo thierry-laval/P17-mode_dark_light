@@ -23,7 +23,7 @@ Le projet 17 consiste à construire un bouton pour afficher le mode dark/night s
 
 ### Utilisé dans ce projet
 
-| Languages       | et Applications    |
+| Langages       | et Applications    |
 | :-------------: |:--------------:    |
 | HTML5           | Visual Studio Code |
 | CSS3            | Git/GitHub         |
