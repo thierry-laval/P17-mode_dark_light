@@ -12,7 +12,7 @@
 
 ### 📎 Projet 17 - Création d'un mode Dark/Night en css
 
-![left 100%](dark_light.jpg?raw=true)
+![left 100%](img/dark_light.jpg?raw=true)
 
 _`Début du projet le 12/04/2021`_
 
