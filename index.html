@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,38 @@
     <title>Mode Dark & Light</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <div id="toggle">
-        <i class="indicator"></i>
-    </div>
 
-    <script>
-        const body = document.querySelector("body");
-        const toggle = document.getElementById("toggle");
-        toggle.onclick = () => {
-            body.classList.toggle("active");
-            toggle.classList.toggle("active");
-        }
-    </script>
+<body>
+    <button id="toggle">
+        <i class="indicator"></i>
+    </button>
+
+    <!-- Script orignal déplacé dans le dossier js -->
+    <script src="./js/toggle.js"></script>
+
+    <!-- Script orignal -->
+    <!--  
+        <script>
+            const body = document.querySelector("body");
+            const toggle = document.getElementById("toggle");
+            toggle.onclick = () => {
+                body.classList.toggle("active");
+                toggle.classList.toggle("active");
+            }
+        </script>
+    -->
+    <!-- Script modifié pour éviter de sélectionner l'élément "body" à chaque clic en stockant une référence en tant que variable globale: -->
+    <!-- 
+        <script>
+            const body = document.body;
+            const toggle = document.getElementById("toggle");
+            toggle.onclick = () => {
+                body.classList.toggle("active");
+                toggle.classList.toggle("active");
+            }
+        </script>
+    -->
+
 </body>
+
 </html>
